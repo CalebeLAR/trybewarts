@@ -44,13 +44,21 @@
     <!-- container de formulario -->
     <main class="main-flex">
       <!-- requisito 5 -->
-        <div>
-            <form action="" id="evaluation-form">
+        <form action="" id="evaluation-form">
+            <div>
                 <input type="text" id="input-name" placeholder="Nome" name="nome">
                 <input type="text" id="input-lastname" placeholder="Sobrenome" nome="sobreNome">
+            </div>
+            <div>
                 <input type="email" id="input-email" placeholder="Email" name="email">
-            </form>
-        </div>
+                <select name="house" id="house">
+                    <option value="Gitnória" id="gitnoria-house">Gitnória</option>
+                    <option value="Reactpuff" id="reactpuff-house">Reactpuff</option>
+                    <option value="Corvinode" id="corvinode-house">Corvinode</option>
+                    <option value="Pytherina" id="pytherina-house">Pytherina</option>
+                </select>
+            </div>
+        </form>
         
         <div>
             <img id="trybewarts-forms-logo" src="images/trybewarts-colored.svg" alt="Imagem TrybeWarts Colorida">

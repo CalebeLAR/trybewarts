@@ -21,3 +21,7 @@ header {
 #trybewarts-forms-logo {
   height: 500px;
 }
+
+.divflex {
+    display: flex;
+}
