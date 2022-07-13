@@ -4,9 +4,11 @@ header {
   justify-content: space-between;
   align-items: center;
 }
+
 header h1 {
   color: white;
 }
+
 header img {
   width: 100px;
 }
