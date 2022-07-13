@@ -20,43 +20,73 @@
       <h1 id="trybewarts-header-title">Trybewarts</h1>
       <!-- formulario -->
       <div>
-      <form for="" class="trybewarts-login">
-        <input
-          type="email"
-          placeholder="Email"
-          name="email"
-          autocomplete="off"
-          required
-          id="email"
-        />
-        <input
-          type="password"
-          placeholder="Senha"
-          name="password"
-          autocomplete="off"
-          requiredg
-          id="password"
-        />
-        <button type="submit" id="btn-login">Entrar</button>
-      </form>
-    </div>
+        <form for="" class="trybewarts-login">
+          
+          <input
+            type="email"
+            placeholder="Email"
+            name="email"
+            autocomplete="off"
+            required
+            id="email"
+          />
+
+          <input
+            type="password"
+            placeholder="Senha"
+            name="password"
+            autocomplete="off"
+            requiredg
+            id="password"
+          />
+          <button type="submit" id="btn-login">Entrar</button>
+        </form>
+      </div>
     </header>
+
     <!-- container de formulario -->
+
     <main class="main-flex">
       <!-- requisito 5 -->
-        <div>
-            <form action="" id="evaluation-form">
-                <input type="text" id="input-name" placeholder="Nome" name="nome">
-                <input type="text" id="input-lastname" placeholder="Sobrenome" nome="sobreNome">
-                <input type="email" id="input-email" placeholder="Email" name="email">
-            </form>
-        </div>
-        <div>
-            <img id="trybewarts-forms-logo" src="images/trybewarts-colored.svg" alt="Imagem TrybeWarts Colorida">
+      <div>
+        <form action="" id="evaluation-form">
+          <input type="text" id="input-name" placeholder="Nome" name="nome" />
 
-        </div>
+          <input
+            type="text"
+            id="input-lastname"
+            placeholder="Sobrenome"
+            nome="sobreNome"
+          />
+
+          <input
+            type="email"
+            id="input-email"
+            placeholder="Email"
+            name="email"
+          />
+        </form>
+      </div>
+
+      <!-- requisito 9 -->
+      <label for="house">
+        Casa:
+        <select name="Casa" id="house" class="casas-selected">
+          <option value="Gitnória" id="gitnoria-house">Gitnória</option>
+          <option value="Reactpuff" id="reactpuff-house">Reactpuff</option>
+          <option value="Corvinode" id="corvinode-house">Corvinode</option>
+          <option value="Pytherina" id="pytherina-house">Pytherina</option>
+        </select>
+      </label>
+
+      <div>
+        <img
+          id="trybewarts-forms-logo"
+          src="images/trybewarts-colored.svg"
+          alt="Imagem TrybeWarts Colorida"
+        />
+      </div>
     </main>
-
 
     <script src="script.js"></script>
   </body>
