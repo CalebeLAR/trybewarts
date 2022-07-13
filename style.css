@@ -9,11 +9,10 @@ header {
 }
 
 .main-flex {
-    display: flex;
-
+  display: flex;
 }
 
 #evaluation-form {
-    display: flex;
-    width: 675px;
+  display: flex;
+  width: 675px;
 }
