@@ -8,8 +8,16 @@ function alertLogin() {
   }
 }
 
+function enableSubmit() {
+  const submitBtn = document.querySelector('#submit-btn');
+  const agreement = document.querySelector('#agreement');
+  submitBtn.disabled = !agreement.checked;
+}
+
 function click() {
   document.getElementById('btn-login').addEventListener('click', alertLogin);
+  const agreement = document.querySelector('#agreement');
+  agreement.addEventListener('change', enableSubmit);
 }
 
 window.onload = click;
