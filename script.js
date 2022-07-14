@@ -20,4 +20,22 @@ function click() {
   agreement.addEventListener('change', enableSubmit);
 }
 
-window.onload = click;
+const contador = document.getElementById('counter');
+
+contador.innerHTML = 500;
+
+const textArea = document.getElementById('textarea');
+
+function counter() {
+  console.log(textArea.value.length);
+  contador.innerText = 500 - textArea.value.length;
+}
+
+textArea.addEventListener('keyup', counter);
+
+function chamarfuncao() {
+  click();
+  counter();
+}
+
+window.onload = chamarfuncao;
