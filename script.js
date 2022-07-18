@@ -97,4 +97,4 @@ btnEnviar.addEventListener('click', (event) => {
   form.style.display = 'none';
 });
 
-window.onload = chamarfuncao
+window.onload = chamarfuncao;
